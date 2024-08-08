@@ -2,7 +2,7 @@ module.exports = {
   login: (req, res) => {
     try {
       return res.send({
-        response: "user login Api",
+        response: "user login out",
       });
     } catch (error) {
       return res.send({
@@ -13,7 +13,7 @@ module.exports = {
   logout: (req, res) => {
     try {
       return res.send({
-        response: "user logout api",
+        response: "user logout",
       });
     } catch (error) {
       return res.send({
